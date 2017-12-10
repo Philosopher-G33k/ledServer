@@ -14,3 +14,5 @@ To use this code, you will need the following:
 7. expressjs
 
 Feel free to copy, modify and share as you please.
+Link for the Medium article:
+https://medium.com/@ishan_13/control-arduino-or-any-board-over-the-internet-b56622093751
