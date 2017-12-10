@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "IOT_Medium",
+		"_postman_id": "0ec434b8-d657-5574-7fa3-961818e8c40d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/iot",
+			"request": {
+				"url": "http://localhost:3000/iot",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"command\":\"led_off\"\n}"
+				},
+				"description": "Arduino over internet"
+			},
+			"response": []
+		}
+	]
+}
