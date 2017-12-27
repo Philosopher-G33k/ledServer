@@ -18,6 +18,12 @@ router.post('/', function(req, res, next) {
     } else if (req.body.command === commands.led_off) {
         iot.ledOFF();
         return res.json({ "status": "led switched off" });
+    } else if (req.body.command === commands.relay_on) {
+        iot.relayON();
+        return res.json({ "status": "relay switched on" });
+    } else if (req.body.command === commands.relay_off) {
+        iot.relayOFF();
+        return res.json({ "status": "relay switched off" });
     }
     res.json({ title: 'Express' });
 });
